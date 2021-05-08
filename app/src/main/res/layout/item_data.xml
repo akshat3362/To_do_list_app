@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    android:elevation="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9 September"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:padding="10dp"
+        android:textColor="@color/tool2"
+        android:id="@+id/date1"
+        />
+    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            tools:ignore="Suspicious0dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:layout_toRightOf="@id/date1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:padding="10dp"
+        android:id="@+id/title1"
+        tools:ignore="NotSibling" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note"
+        android:layout_below="@id/title1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:padding="10dp"
+        android:layout_toRightOf="@id/date1"
+        android:id="@+id/note1"
+        tools:ignore="NotSibling" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

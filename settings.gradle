@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "office_task_mangement"

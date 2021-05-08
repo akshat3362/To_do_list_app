@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:theme="@style/AppTheme1"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="420dp"
+        android:layout_height="60dp"
+        android:id="@+id/nav_toolbar"
+        android:background="@drawable/backdesign">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/todolist"
+        />
+    <TextView
+        android:id="@+id/text_splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="To Do list"
+        android:layout_marginLeft="20dp"
+        android:textSize="30dp" />
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ExtraText">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/Recycler"
+            />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            app:fabSize="normal"
+            android:layout_margin="15dp"
+            android:src="@drawable/icon1"
+            android:backgroundTint="@color/tool1"
+            android:id="@+id/floating_bt"
+            />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            app:fabSize="normal"
+            android:layout_margin="15dp"
+            android:src="@drawable/ic_baseline_home_24"
+            android:backgroundTint="@color/tool1"
+            android:id="@+id/floating_bt1"
+            />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</LinearLayout>

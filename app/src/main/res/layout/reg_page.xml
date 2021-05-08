@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register With Us!"
+        android:textColor="#00008B"
+        android:id="@+id/reg"
+        android:layout_marginLeft="60dp"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/editdesign"
+        android:hint="  Email"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/reg1"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/editdesign"
+        android:drawableLeft="@drawable/ic_baseline_password_24"
+        android:layout_below="@id/reg1"
+        android:hint="  Password"
+        android:id="@+id/reg2"
+        android:inputType="textPassword"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textStyle="bold"
+        android:layout_below="@id/reg2"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/save"
+        android:background="@drawable/buttondesign"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/backdesign"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Update Your Tasks"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="107dp"
+            android:text="Title"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/title_edit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="105dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/note1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:text="Note"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/note_edit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_edit1"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="41dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#000000" />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/note_edit1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="0dp"
+            android:id="@+id/button_floating1"
+            android:background="@drawable/buttondesign"
+            android:ems="120"
+            android:padding="10dp"
+            android:text="Delete"
+            android:textColor="@color/white" />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/note_edit1"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="0dp"
+            android:id="@+id/button_floating2"
+            android:background="@drawable/buttondesign"
+            android:ems="120"
+            android:padding="10dp"
+            android:text="Update"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</RelativeLayout>

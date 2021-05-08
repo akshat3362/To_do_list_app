@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backdesign"
+    tools:context="com.example.office_task_mangement.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log IN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:id="@+id/text_view1"
+        />
+    <EditText
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@drawable/editdesign"
+        android:layout_below="@id/text_view1"
+        android:hint="Email"
+        android:layout_margin="10dp"
+        android:id="@+id/email"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:padding="8dp"
+        android:layout_below="@id/email"
+        android:background="@drawable/editdesign"
+        android:hint="Password"
+        android:layout_margin="10dp"
+        android:id="@+id/password"
+        />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/password"
+    android:layout_margin="10dp"
+    android:textColorHint="@color/white"
+    android:background="@drawable/editdesign"
+    android:id="@+id/button_Submit"
+    android:padding="8dp"
+    android:text="LOG IN"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_Submit"
+        android:text="Dont have account?Sign up here"
+        android:gravity="center"
+        android:id="@+id/register"
+        android:padding="7dp"
+        />
+</RelativeLayout>

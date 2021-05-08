@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "668500057654",
+    "firebase_url": "https://udemy-62848.firebaseio.com",
+    "project_id": "udemy-62848",
+    "storage_bucket": "udemy-62848.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668500057654:android:3f4f8a41696d1c03218297",
+        "android_client_info": {
+          "package_name": "com.example.office_task_mangement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668500057654-f841la9ufcf3h1dac82g5u56hs7rv23t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8bbsOkRJCOHHxT4yTcWa_3GxsAZTSMtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668500057654-f841la9ufcf3h1dac82g5u56hs7rv23t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
